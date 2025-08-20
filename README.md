@@ -33,3 +33,5 @@ Key Learnings
 References
 
 S3 Multi-Region Access Points(https://docs.aws.amazon.com/AmazonS3/latest/userguide/MultiRegionAccessPoints.html)
+*Author: Ryan Luhongo
+*Created on: August 2025
