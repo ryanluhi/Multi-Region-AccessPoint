@@ -4,19 +4,19 @@ Implement an **Amazon S3 Multi-Region Access Point (MRAP)** to provide low-laten
 1. **Created S3 Buckets** in two different regions (`ap-southeast-2` and `ca-central-1`).
 2. Enabled **Bucket Versioning** to support replication.
 3. Configured **Cross-Region Replication (CRR)** between the buckets.
-[create Bucket,enable bucket versioning,configure cross-region replication(CRR)]](/mrap1.jpeg)
+![create Bucket,enable bucket versioning,configure cross-region replication(CRR)](/mrap1.jpeg)
 
 4. Created an **S3 Multi-Region Access Point** to unify access across regions.
-[create multi-region access point](/mrap3.jpeg)
-                                  (/mrap4.jpeg)                 
-                                  (/mrap5.jpeg)
+![create multi-region access point](/mrap3.jpeg)-
+![Configured Cross-Region Replication(CRR) between the buckets.](/mrap4.jpeg)                 
+![Configured Cross-Region Replication(CRR) between the buckets.](/mrap5.jpeg)
                                   
-5. Tested object uploads/downloads via the MRAP endpoint.
-[create an object and insert it in the multi-region access point i created 'ap-southeast-2'](/mrap8.jpeg)
+6. Tested object uploads/downloads via the MRAP endpoint.
+![create an object and insert it in the multi-region access point i created 'ap-southeast-2'](/mrap8.jpeg)
 -uploaded in the 'ap-southeast-2' region bucket
-[testing](/mrap7.jpeg)
+![testing](/mrap7.jpeg)
 -after some few minutes it was replicated on the 'ca-central-1' region bucket
-[testing](/mrap9.jpeg)
+![testing](/mrap9.jpeg)
 
 Key Learnings
 
