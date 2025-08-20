@@ -7,7 +7,6 @@ Implement an **Amazon S3 Multi-Region Access Point (MRAP)** to provide low-laten
 2. Enabled **Bucket Versioning** to support replication.
 3. Configured **Cross-Region Replication (CRR)** between the buckets.
    ![Configured Cross-Region Replication(CRR) between the buckets.](/mrap4.jpeg)  
-   ![Configured Cross-Region Replication(CRR) between the buckets.](/mrap5.jpeg)
                                   
 4. Created an **S3 Multi-Region Access Point** to unify access across regions.
 ![create multi-region access point](/mrap3.jpeg)-
