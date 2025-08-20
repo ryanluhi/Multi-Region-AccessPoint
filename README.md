@@ -14,10 +14,12 @@ Implement an **Amazon S3 Multi-Region Access Point (MRAP)** to provide low-laten
 
 5. Tested object uploads/downloads via the MRAP endpoint.
    
--create an object and insert it in the multi-region access point i created 'ap-southeast-2'
+-create an object and uploaded it in the multi-region access point i created 'ap-southeast-2'
 ![create an object and insert it in the multi-region access point i created 'ap-southeast-2'](/mrap8.jpeg)
+
 -uploaded in the 'ap-southeast-2' region bucket
 ![Testing](/mrap7.jpeg)
+
 -after some few minutes it was replicated on the 'ca-central-1' region bucket
 ![testing](/mrap9.jpeg)
 
